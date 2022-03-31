@@ -5,6 +5,9 @@
 html, body{
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #divWelcome{
   width: 100%;
@@ -14,12 +17,12 @@ html, body{
 #welcomeGenius{
   font-family: 'Alfa Slab One', cursive;
   color: #24057a;
-  font-size: 200px;
-  margin: 0% 18%;
+  font-size: 11vw;
+  margin: 7% 18%;
   width: 73%;
 }
 #container{
-  height: 100%;
+  height: max-content;
   width: 100%;
   background: transparent;
   display: flex;
@@ -29,36 +32,40 @@ html, body{
 #text{
   font-family: 'Alfa Slab One', cursive;
   font-weight: 600;
-  font-size: xx-large;
+  font-size: x-large;
   letter-spacing: 0.2em;
 }
 .btnInfo{
-  width: 2em;
-  height: 2em;
+  width: 2vw;
+  height: 2vw;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   display: flex;
   position: absolute;
-  margin-bottom: 30%;
-  margin-left: 10%;
+  margin-bottom: 33%;
+  margin-left: 17%;
 }
 .divPop{
-  width: 25em;
+  line-height:5vh;
+  width: 20em;
   font-family: 'Amatic SC', cursive;
   font-weight: 600;
-  font-size: xx-large;
+  font-size: x-large;
   display:none;
   position: absolute;
-  margin-bottom: 30%;
+  margin-bottom: 35%;
   margin-left: 55%;
   flex-direction: column;
+}
+.divPop > p{
+  margin-bottom: 0.1vh;
 }
 #btnStart{
   font-family: 'Alfa Slab One', cursive;
   letter-spacing: 7;
-  width: 200px;
-  height: 70px;
+  width: 7vw;
+  height: 3vw;
   align-items: center;
   justify-content: center;
   border: solid 0.3px;
@@ -70,8 +77,8 @@ html, body{
 }
 #contColors{
   background: transparent;
-  height: 500px;
-  width: 500px;
+  height: 25vw;
+  width: 25vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,8 +181,8 @@ html, body{
   box-shadow: -25px 10px 42px 9px rgba(222,222,76,1);
 }
 #logoKenzie{
-  width: 250px;
-  height: 250px;
+  width: 15%;
+  height: 25%;
   border-radius: 50%;
   display: flex;
   position: absolute;
@@ -192,7 +199,7 @@ html, body{
   flex-direction: column;
   flex-wrap: wrap;
   height: auto;
-  width: 300px;
+  width: 15vw;
   padding:0.5% ;
   font-family: 'Amatic SC', cursive;
   font-weight: 600;
